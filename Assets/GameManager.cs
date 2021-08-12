@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
 	}
 
-	async void LoadScene(string sceneName)
+	public async void LoadScene(string sceneName)
 	{
 		await SceneManager.LoadSceneAsync(sceneName);
 	}
